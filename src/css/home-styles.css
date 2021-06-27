@@ -1,0 +1,123 @@
+body {
+  background: rgb(0,0,0);
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar-light .navbar-brand {
+  background: url("../../assets/img/Mura.png") center / 80% no-repeat;
+}
+
+#navcol-1 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 600;
+  background: rgba(255,255,255,0);
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#title {
+  font-weight: 300;
+  font-size: 32px;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  margin-bottom: 0px;
+  color: rgb(235,235,235);
+}
+
+#subtitle {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(255,255,255);
+}
+
+#bottom {
+  color: rgb(255,255,255);
+  font-family: 'Anonymous Pro', monospace;
+  width: 100%;
+}
+
+bottom .container {
+  text-align: center;
+}
+
+.col.with-borders {
+  border: 5px solid white;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#video-and-stats {
+  text-align: center;
+}
+
+#video-and-stats iframe {
+  width: 90%;
+  height: 400px;
+}
+
+@media (min-width: 768px) {
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+  }
+}
+
+#middle {
+  width: 70%;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+
+#hero {
+  position: fixed;
+}
+
+@media (max-width: 1000px) {
+  #side-bar {
+    margin-left: 0%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #side-bar {
+    margin-left: 5%;
+  }
+}
+
+#side-bar {
+  position: fixed;
+  margin-top: 110px;
+}
+
+@media (max-width: 1200px) {
+  #side-bar-column {
+    width: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #side-bar-column {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn.btn-primary {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .btn.btn-primary {
+    font-size: 0px;
+  }
+}
+

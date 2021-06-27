@@ -23,7 +23,7 @@ export default class CreateItem extends Component<ItemProps, ImageData> {
 
     async createItem(title: string, desc: string, contentLink: string, category: string, thumbnail: string){
 
-        await firestore.collection("Rentals").doc().set({
+        await firestore.collection("Content").doc().set({
             title: title,
             creator: auth.currentUser!.email,
             desc: desc,

@@ -1,0 +1,33 @@
+.carouselX {
+    width: 100%;
+    maxHeight: calc(200px + 10vmin) !important;
+}
+
+.jumbo {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 100%);
+}
+
+.h3-font {
+    font-size: calc(14px + 2.5vmin);
+}
+
+.p-font {
+    font-size: calc(12px + 1vmin);
+}
+
+.textOutline {
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.carouselImage {
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 50%;
+    overflow: hidden;
+    aspect-ratio: 5/2;
+}
+
+li {
+    font-size: 18px;
+}

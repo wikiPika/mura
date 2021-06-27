@@ -1,0 +1,71 @@
+input[type=text]:focus {
+    outline: none !important;
+}
+input[type=text] {
+    border: 1px solid gray;
+    height: 38px;
+    padding: 3px 0px 0px 10px;
+}
+
+.autoContainer {
+    position: relative;
+}
+
+.autoSuggestionContainerOpen {
+    display: block;
+    position: absolute;
+    top: 42px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-weight: 100;
+    font-size: 16px;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.autoSuggestionsList {
+    margin: 0;
+    padding: 4px 0px 4px 0px;
+    list-style-type: none;
+}
+
+.autoSuggestion {
+    cursor: pointer;
+    padding: 7px 10px;
+}
+
+.autoSuggestionHighlighted {
+    background-color: #eee;
+    position: relative;
+}
+
+.react-icons {
+    vertical-align: middle;
+}
+
+.inputBar {
+    border-radius: 8px 0px 0px 8px !important;
+    border-width: 1px 0px 1px 1px !important;
+    border-style: solid !important;
+    border-color: gray !important;
+}
+
+.hovering {
+    color: white;
+}
+
+.hovering:hover {
+    color: black;
+    cursor: pointer
+}
+
+.hovering:not:hover {
+    animation-name: onHover;
+    animation-direction: reverse;
+    animation-duration: 0.5s;
+}
+
+* {
+    font-family: Josefin Sans, sans-serif
+}

@@ -1,0 +1,35 @@
+.sidebar {
+
+}
+
+.sidebarItem {
+    border-color: gray;
+    border-right-width: 0px;
+    border-radius: 10px;
+    color: white;
+
+    transition: color 0.5s;
+}
+
+.sidebarItem:hover {
+    border-color: gray;
+    border-right-width: 0px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.gradient1 {
+    background: rgba(176,108,251,0.66);
+    background: linear-gradient(0deg, rgba(176,108,251,1) 0%, rgba(245,191,240,1) 66%, rgba(255,255,255,1) 100%);
+}
+
+.gradient2 {
+    background: rgba(255,164,107,0.66);
+    background: linear-gradient(0deg, rgba(255,164,107,1) 0%, rgba(255,252,182,1) 66%, rgba(255,255,255,1) 100%);
+}
+
+.gradient3 {
+    background: rgb(34,104,255);
+    background: linear-gradient(0deg, rgba(34,104,255,1) 0%, rgba(129,168,255,1) 36%, rgba(165,194,255,1) 59%, rgba(255,255,255,1) 100%);
+}
